@@ -19,7 +19,7 @@ class Node<T extends Comparable<T>> {
 	}
 
 	public boolean contains(T value){
-		if (this.value == value) {
+		if (this.value.equals(value)) {
 			return true;
 		}
 		else if (value.compareTo(this.value) < 0){
