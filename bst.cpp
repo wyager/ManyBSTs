@@ -1,3 +1,6 @@
+// Generic: yes
+// Type checked: yes
+
 #include <iostream>
 
 template <class T>

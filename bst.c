@@ -1,3 +1,6 @@
+// Generic: no
+// Type checked: yes
+
 #include <stdio.h>
 #include <stdlib.h>
 

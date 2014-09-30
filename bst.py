@@ -1,3 +1,6 @@
+# Generic: yes
+# Type checked: no
+
 class Node():
 	def __init__(self, value):
 		self.value = value

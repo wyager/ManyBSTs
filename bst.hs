@@ -1,3 +1,6 @@
+-- Generic: yes
+-- Type checked: yes
+
 data Node a = Node {value :: a, l :: Node a, r :: Node a} | Nil
 
 contains :: (Ord a) => Node a -> a -> Bool

@@ -1,3 +1,6 @@
+// Generic: yes
+// Type checked: yes
+
 public class bst {
 	public static void main(String [] args){
 		Node<Integer> root = new Node<Integer>(10);
