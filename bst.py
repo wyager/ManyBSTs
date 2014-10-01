@@ -33,10 +33,9 @@ class Node():
 
 
 root = Node(10)
-root.add(9)
-root.add(8)
 root.add(20)
 root.add(15)
+root.add(20)
 
-for n in [10,9,8,20,15,13,14,16,0,1,1000]:
+for n in [10,20,15,1]:
 	print str(n) + ":" + str(root.contains(n))

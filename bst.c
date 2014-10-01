@@ -55,5 +55,5 @@ int main(int argc, char** argv){
 	add(&root, 20);
 	add(&root, 15);
 	add(&root, 20);
-	printf("%i %i %i %i\n", contains(&root, 20), contains(&root, 15), contains(&root, 10), contains(&root, 30));
+	printf("%i %i %i %i\n", contains(&root, 20), contains(&root, 15), contains(&root, 10), contains(&root, 1));
 }

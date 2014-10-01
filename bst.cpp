@@ -43,9 +43,9 @@ public:
 
 int main(int argc, char** argv){
 	Node<int> root(10);
-	root.add(15);
 	root.add(20);
 	root.add(15);
+	root.add(20);
 	std::cout << root.contains(10) << root.contains(15) << root.contains(20) << root.contains(1) << "\n";
 	return 0;
 }
