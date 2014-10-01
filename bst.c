@@ -18,11 +18,11 @@ node make_node(int value){
 
 int contains(const node* n, const int value){
 	if(n->value == value) return 1;
-	if(value < n->value){
+	else if(value < n->value){
 		if(n->l == NULL) return 0;
 		return contains(n->l, value);
 	}
-	if(value > n->value){
+	else {
 		if(n->r == NULL) return 0;
 		return contains(n->r, value);
 	}

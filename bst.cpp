@@ -23,7 +23,7 @@ public:
 			if(this->l) return this->l->contains(value);
 			else return false;
 		}
-		else if (value > this->value){
+		else {
 			if(this->r) return this->r->contains(value);
 			else return false;
 		}
