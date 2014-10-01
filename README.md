@@ -1,7 +1,7 @@
 BSTs
 ====
 
-Simple Binary Search Trees in a bunch of languages
+Simple Binary Search Trees / Sets in a bunch of languages
 
 All trees support only adding elements (no balancing) and checking for membership.
 
