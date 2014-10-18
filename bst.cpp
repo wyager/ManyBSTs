@@ -10,9 +10,7 @@ private:
 	Node<T> *l, *r;
 public:
 	T value;
-	Node(T value):l(nullptr), r(nullptr), value(value){
-		this->value = value;
-	}
+	Node(T value):l(nullptr), r(nullptr), value(value){}
 	~Node(){
 		if(this->l) delete this->l;
 		if(this->r) delete this->r;
