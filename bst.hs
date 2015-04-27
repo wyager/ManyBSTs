@@ -4,7 +4,7 @@
 data Node a = Node {value :: a, l :: Node a, r :: Node a} | Nil
 
 contains :: (Ord a) => Node a -> a -> Bool
-Nil `contains` x                    = False
+Nil  `contains` x                   = False
 node `contains` x | x == value node = True
                   | x <  value node = l node `contains` x
                   | x >  value node = r node `contains` x
